@@ -15,7 +15,17 @@
     <modules>
         <module>eureka-server</module>
         <module>demo-api-eureka-client</module>
+        <module>demo-api-eureka-feign-client</module>
     </modules>
     <packaging>pom</packaging>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
